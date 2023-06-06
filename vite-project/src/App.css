@@ -1,0 +1,168 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* ==================================================== */
+.navBar{
+  
+  background-color: #ffff;
+  color: #000;
+  font-size: x-large;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.img{
+width: 200px;
+height: 200px;
+
+}
+nav ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 10px;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 10%;  
+}
+.body{
+/* display: flex;
+justify-content: center;
+align-items: center; */
+background: linear-gradient(azure, 	lavender, 	lightcyan);
+ width: 100%;
+ height: 400px;
+ font-size: xx-large;
+ font-weight: bold;
+ color:white;
+ 
+}
+
+.but{
+
+  margin-top: 100px;
+  margin-left: 600px;
+ 
+}
+.button{
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px ;
+  font-size: 24px;
+  cursor: pointer;
+  /* text-align: center; */
+  color: #fff;
+  background-color: #54BBBD;
+  border-radius: 15px;
+ 
+ 
+}
+.p-2{
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  color:#6200EE ;
+  font-size: x-large;
+  font-weight: bold;
+}
+.card{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin: 50px;
+  gap: 50px;
+}
+.icon-1{
+  width: 5%;
+  height: 5%;
+}
+.icon-2{
+  width: 5%;
+  height: 5%;
+}
+.icon-3{
+  width: 5%;
+  height: 5%;
+}
+.butt{
+  
+}
+.card-1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-style:groove;
+  border-right: 5px solid #54BBBD;
+  border-radius: 10%;
+  height: 100%;
+  width: 100%;
+}
+.btnEnd{
+  text-align: center;
+}
+.footer-end{
+  
+  background-color: #4E3797;
+  color: #fff;
+  padding: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+/* .logo{
+  text-align: center;
+  width: 10%;
+  height: 10%;
+  
+} */
